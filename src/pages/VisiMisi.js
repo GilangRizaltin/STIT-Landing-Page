@@ -9,7 +9,7 @@ const VisiMisi = () => {
       {/* Header Section with Background Image */}
       <div className="relative h-[50vh] bg-gray-900">
         <img
-          src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=1600"
+          src="/images/background_stit_3.jpeg"
           alt="Campus Background"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />

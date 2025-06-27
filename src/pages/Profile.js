@@ -31,7 +31,7 @@ const Profile = () => {
       {/* Header Section with Background Image */}
       <div className="relative h-[50vh] bg-gray-900">
         <img
-          src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=1600"
+          src="/images/background_stit_3.jpeg"
           // src='https://al-wafi.sch.id/src/images/wp/wafi-img-data=gedung_default.png'
           alt="Campus Background"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
@@ -215,11 +215,11 @@ const Profile = () => {
             <div className="p-6">
               <div className="grid grid-cols-2 gap-6">
                 {[
-                  { name: "Mogahid Idris, M.I.B.A", image: "https://alwafi.ac.id/img/masyaikh/mogahid.jpg" },
-                  { name: "Dr. Talal Ahmed, E.E., M.A.", image: "https://alwafi.ac.id/img/masyaikh/talal.jpg" },
-                  { name: "Dr. Aboelgasim Muhammad, S.M.A.", image: "https://alwafi.ac.id/img/masyaikh/aboelgasim.jpg" },
-                  { name: "Magdi Yahya Ahmed, B.A", image: "https://alwafi.ac.id/img/masyaikh/magdi.jpg" },
-                  { name: "Zakarya Mohammed Raweh", image: "https://alwafi.ac.id/img/masyaikh/zakarya.jpg" },
+                  { name: "Mogahid Idris, M.I.B.A", image: "https://ui-avatars.com/api/?name=Muhammad+Bakri+Rahimin&background=E5E7EB&color=374151&size=128" },
+                  { name: "Dr. Talal Ahmed, E.E., M.A.", image: "https://ui-avatars.com/api/?name=Talal+Ahmed&background=E5E7EB&color=374151&size=128" },
+                  { name: "Dr. Aboelgasim Muhammad, S.M.A.", image: "https://ui-avatars.com/api/?name=Aboelgasim+Muhammad&background=E5E7EB&color=374151&size=128" },
+                  { name: "Magdi Yahya Ahmed, B.A", image: "https://ui-avatars.com/api/?name=Magdi+Yahya+Ahmed&background=E5E7EB&color=374151&size=128" },
+                  { name: "Zakarya Mohammed Raweh", image: "https://ui-avatars.com/api/?name=Zakarya+Mohammed+Raweh&background=E5E7EB&color=374151&size=128" },
                 ].map((teacher, index) => (
                   <div key={index} className="flex flex-col items-center text-center">
                     <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-blue-200 mb-3">

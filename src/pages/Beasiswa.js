@@ -58,8 +58,8 @@ const Beasiswa = () => {
       {/* Hero Section */}
       <section className="relative h-[50vh]">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-800">
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/islamic-pattern.png')] mix-blend-overlay opacity-20 bg-repeat bg-center"></div>
-          <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/7092613/pexels-photo-7092613.jpeg')] mix-blend-overlay opacity-50 bg-cover bg-center"></div>
+          {/* <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/islamic-pattern.png')] mix-blend-overlay opacity-20 bg-repeat bg-center"></div> */}
+          <div className="absolute inset-0 bg-[url('/images/background_stit_6.jpeg')] mix-blend-overlay opacity-50 bg-cover bg-center"></div>
         </div>
         <div className="relative container mx-auto h-full flex items-center justify-center px-4">
           <div className="text-center">

@@ -10,7 +10,7 @@ const ProgramStudi = () => {
       {/* Header Section */}
       <div className="relative h-[50vh] bg-gray-900">
         <img
-          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600"
+          src="/images/background_stit_1.jpeg"
           alt="Education Background"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
@@ -41,7 +41,8 @@ const ProgramStudi = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800"
+                    // src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800"
+                    src='https://jurnaldepok.id/wp-content/uploads/2024/06/unnamed-file-1.jpg'
                     alt="Islamic Education Management"
                     className="w-full rounded-xl shadow-lg"
                   />

@@ -81,7 +81,7 @@ const Masjid = () => {
       <section className="relative h-[50vh]">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg"
+            src="/images/background_stit_1.jpeg"
             alt="Ruang Kelas"
             className="w-full h-full object-cover"
           />

@@ -128,7 +128,7 @@ const Home = () => {
 
   const heroSlides = [
     {
-      image: "/images/background_stit_1.jpeg",
+      image: "/images/background_stit_3.jpeg",
       title: "STIT Al Wafi Bogor",
       subtitle: "Membentuk Generasi Pendidik Islam yang Berkualitas"
     },
@@ -138,7 +138,7 @@ const Home = () => {
       subtitle: "Kurikulum Terintegrasi dengan Nilai-nilai Islam"
     },
     {
-      image: "/images/background_stit_3.jpeg",
+      image: "/images/background_stit_1.jpeg",
       title: "Fasilitas Modern",
       subtitle: "Mendukung Pembelajaran yang Optimal"
     }
@@ -397,7 +397,7 @@ const Home = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600"
+                    src="https://alwafi.ac.id/img/webp/gambar-asesmen-lapangan-edit.webp"
                     alt="Manajemen Pendidikan Islam"
                     className="w-full rounded-lg shadow-md"
                   />
