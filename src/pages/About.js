@@ -1,17 +1,40 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 const About = () => {
+  useEffect(() => {
+      window.scrollTo(0, 0); // Scroll to top on component mount
+    }, []);
   return (
     <div className="min-h-screen">
       {/* Header Section */}
-      <section className="bg-blue-900 text-white py-16">
+      {/* <section className="bg-blue-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-4">Tentang STIT Al Wafi</h1>
           <p className="text-xl text-gray-200">
             Membangun Generasi Pendidik Islam yang Berkualitas dan Berakhlak Mulia
           </p>
         </div>
-      </section>
+      </section> */}
+      <div className="relative h-[50vh] bg-gray-900">
+        <img
+          src="/images/background_stit_3.jpeg"
+          // src='https://al-wafi.sch.id/src/images/wp/wafi-img-data=gedung_default.png'
+          alt="Campus Background"
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60">
+          <div className="max-w-7xl mx-auto h-full flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+              Tentang STIT Al Wafi
+              </h1>
+              <p className="text-xl text-white/90">
+              Membangun Generasi Pendidik Islam yang Berkualitas dan Berakhlak Mulia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Vision Mission Section */}
       <section className="py-16">
