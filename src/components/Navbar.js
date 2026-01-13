@@ -169,7 +169,7 @@ const Navbar = () => {
               ))}
               
               <Link
-                to="/daftar"
+                to="http://pmb.alwafi.ac.id"
                 className={`ml-2 px-4 py-2.5 text-sm font-medium rounded-lg transition-all duration-300 ${
                   isScrolled
                     ? 'bg-blue-600 text-white hover:bg-blue-700'

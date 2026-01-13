@@ -517,7 +517,7 @@ const Home = () => {
               Kuota terbatas! Segera hubungi admin kami untuk informasi lebih lanjut dan konsultasi pendaftaran.
             </p>
             <a
-              href="https://wa.me/6281234567890?text=Assalamualaikum%2C+saya+ingin+info+beasiswa+STIT+Al+Wafi"
+              href="https://wa.me/628111351044?text=Assalamualaikum%2C+saya+ingin+info+beasiswa+STIT+Al+Wafi"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 font-semibold rounded-lg shadow-lg transition-all duration-300 text-lg"
@@ -678,7 +678,7 @@ const Home = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Kontak</h3>
-                  <p className="text-gray-600">+62 123 4567 890</p>
+                  <p className="text-gray-600">+62 811-1351-044</p>
                   <p className="text-gray-600">info@stit-alwafi.ac.id</p>
                 </div>
               </div>

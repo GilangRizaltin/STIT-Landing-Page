@@ -15,11 +15,13 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 text-blue-300">Kontak</h3>
             <div className="space-y-2">
-              <p>Jl. Raya Bogor KM 47, Nanggewer</p>
-              <p>Cibinong, Bogor</p>
-              <p>Jawa Barat 16912</p>
+              <p>Jl. Raya Arco No.1 RT. 02 / RW. 01</p>
+              <p>Ragamukti, Citayam, Tajur Halang</p>
+              <p>Kec. Tajur Halang, Kabupaten Bogor</p>
+              <p>Jawa Barat 16320</p>
               <p className='cursor-pointer'>Email: info@alwafi.ac.id</p>
-              <p className='cursor-pointer'>Telp: (021) 123-4567</p>
+              {/* <p className='cursor-pointer'>Telp: (021) 123-4567 </p> */}
+              <p className='cursor-pointer'>Telp: 0811 0135 1044 </p>
             </div>
           </div>
 
